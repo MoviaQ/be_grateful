@@ -1,0 +1,12 @@
+@keyframes scroll {
+    0% {
+      transform: translateX(100%); /* Zaczynamy poza ekranem po prawej stronie */
+    }
+    100% {
+      transform: translateX(-100%); /* Kończymy poza ekranem po lewej stronie */
+    }
+  }
+  
+  .animate-scroll {
+    animation: scroll 10s linear infinite; /* Przewijanie w czasie 10 sekund */
+  }
